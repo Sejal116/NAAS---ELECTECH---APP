@@ -22,6 +22,10 @@ A mobile app concept that connects three groups in the electric vehicle industry
 
 Company and investor entries are sample data stored in `constants/index.js`.
 
+## My contribution
+
+I designed this app myself, including the screens, the layout and the EV marketplace concept.
+
 ## Setup
 
 ```
