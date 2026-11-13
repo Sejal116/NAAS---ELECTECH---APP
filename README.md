@@ -16,7 +16,7 @@ The app emphasizes breaking down complex real-world systems into understandable 
 
 ## Tech Stack
 
-- **Languages:** JavaScript, HTML, CSS  
+- **Languages:** JavaScript, CSS  
 - **Tools & Libraries:** React Native, Expo
 
 ---
