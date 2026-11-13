@@ -1,27 +1,8 @@
-# ⚡ NAAS — ELECTECH APP
+# Electech: EV Industry Marketplace App
 
-A technology-focused project designed to explore how electrical concepts and logical systems can be translated into structured problem solving.  
-The app emphasizes breaking down complex real-world systems into understandable and functional components.
+A mobile app concept that connects three groups in the electric vehicle industry: car component makers, charging companies and investors. Built with React Native and Expo.
 
----
-
-## Features
-
-- Logical simulation of electrical and technical systems  
-- Interactive components to visualize processes  
-- Step-by-step explanations for each module  
-- User-friendly interface for easy navigation  
-
----
-
-## Tech Stack
-
-- **Languages:** JavaScript, HTML, CSS  
-- **Tools & Libraries:** React Native, Expo
-
----
-
-## Demo / Screenshots
+## Screenshots
 
 | Screenshot 1 | Screenshot 2 | Screenshot 3 |
 |--------------|--------------|--------------|
@@ -31,5 +12,40 @@ The app emphasizes breaking down complex real-world systems into understandable 
 |--------------|--------------|--------------|
 | ![Screenshot4](assets/ss4.png) | ![Screenshot5](assets/ss5.png) | ![Screenshot6](assets/ss6.png) |
 
+## Features
 
----
+- Home screen with category tabs: Car Components, Charging Companies, Investors.
+- Search bar and a card for each company or investor, showing price, rating and contact name.
+- Detail screen with an About section, rating and a Contact Now button.
+- Bottom tab navigation and stack navigation between screens.
+- Styling with NativeWind (Tailwind for React Native).
+
+Company and investor entries are sample data stored in `constants/index.js`.
+
+## Setup
+
+```
+git clone https://github.com/Sejal116/NAAS---ELECTECH---APP.git
+cd NAAS---ELECTECH---APP
+npm install
+npx expo start
+```
+
+Scan the QR code with Expo Go on your phone.
+
+## Project structure
+
+```
+App.js                  entry point
+navigation/             stack and bottom-tab navigation
+screens/                HomeScreen, ProductScreen
+components/clientCard.js  reusable card component
+constants/index.js      categories and sample company data
+theme/                  colours
+```
+
+## Next steps
+
+- Replace sample data with a real backend.
+- Add working search and filtering by category.
+- Add sign-in and a messaging flow behind the Contact button.
